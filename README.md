@@ -13,7 +13,8 @@ download
 
 ### linux
  
-```  curl -LO https://raw.githubusercontent.com/bdllhdrss3/utilities/blob/main/airflow-init.sh  ```
+``` curl -LO https://raw.githubusercontent.com/bdllhdrss3/utilities/main/airflow-init.sh ```
+
 
 ### windows 
 
