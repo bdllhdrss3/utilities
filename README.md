@@ -5,19 +5,19 @@
 this allows you to install dockerised airflow with postgress
 
 download
-> curl https://github.com/bdllhdrss3/utilities/blob/main/airflow
+> curl -LfO https://github.com/bdllhdrss3/utilities/blob/main/airflow
 
 
 ## Auto Configuration files to setup dockerised airflow with postgress on windows and linux 
 
 
 ### linux
-
-``` curl https://github.com/bdllhdrss3/utilities/blob/main/airflow-init.sh ```
+ 
+``` curl -LfO https://github.com/bdllhdrss3/utilities/blob/main/airflow-init.sh ```
 
 ### windows 
 
-``` curl https://github.com/bdllhdrss3/utilities/blob/main/airflow.bat ```
+``` curl -LfO  https://github.com/bdllhdrss3/utilities/blob/main/airflow.bat ```
 
 
 download these files into the desired directory (where you wish to place your dags)
