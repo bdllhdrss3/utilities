@@ -13,17 +13,17 @@ download
 
 ### linux
  
-``` curl -LfO https://github.com/bdllhdrss3/utilities/blob/main/airflow-init.sh ```
+```  curl -LO https://github.com/bdllhdrss3/utilities/blob/main/airflow-init.sh  ```
 
 ### windows 
 
-``` curl -LfO  https://github.com/bdllhdrss3/utilities/blob/main/airflow.bat ```
+``` curl -LO https://raw.githubusercontent.com/bdllhdrss3/utilities/main/airflow-init.sh ```
 
 
 download these files into the desired directory (where you wish to place your dags)
 
 
-then run 
+then run
 
 ``` source airflow-init.sh ```
 
