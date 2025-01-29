@@ -65,7 +65,9 @@ fi
 AIRFLOW_VERSION="2.10.0"
 COMPOSE_FILE="docker-compose.yaml"
 echo "Downloading Apache Airflow Docker Compose file for version $AIRFLOW_VERSION..."
-curl -LfO https://github.com/bdllhdrss3/utilities/blob/main/airflow
+# curl -LfO https://github.com/bdllhdrss3/utilities/blob/main/airflow
+
+curl -LfO https://raw.githubusercontent.com/bdllhdrss3/utilities/main/docker-compose.yaml
 
 # Step 4: Create necessary directories
 echo "Creating directories: dags, logs, plugins..."
